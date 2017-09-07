@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
+        <link href="https://cdn.alloyui.com/3.0.1/aui-css/css/bootstrap.min.css" rel="stylesheet"></link>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.alloyui.com/3.0.1/aui/aui-min.js"></script>
+        <script src="calculator.js"></script>
+        <script src="calculatorForm.js"></script>
+
+       
+    </head>
+    <body>
+        <div class="top-screen">
+            <header>
+                <h1>Personal Loan</h1>
+                <h2>Save and no red tape loan.</h2>
+            </header>
+            <div class="calculator-back">
+                <div class="calculator-area">
+                    <div class="calculator">
+                        <p class="error-msg"></p>
+                        <input name="display" id="display" class="display" type="text">
+                        <div class="calc-digits">
+                            <div class="digits">
+                                <button class="btn btn-digit backspace"><</button>
+                                <button class="btn btn-digit">(</button>
+                                <button class="btn btn-digit">)</button>
+                                <button class="btn btn-digit">1</button>
+                                <button class="btn btn-digit">2</button>
+                                <button class="btn btn-digit">3</button>
+                                <button class="btn btn-digit">4</button>
+                                <button class="btn btn-digit">5</button>
+                                <button class="btn btn-digit">6</button>
+                                <button class="btn btn-digit">7</button>
+                                <button class="btn btn-digit">8</button>
+                                <button class="btn btn-digit">9</button>
+                                <button class="btn btn-digit zero">0</button>
+                                <button class="btn btn-digit">.</button>
+                            </div>
+                            <div class="operators">
+                                <button class="btn btn-digit">+</button>
+                                <button class="btn btn-digit">-</button>
+                                <button class="btn btn-digit">*</button>
+                                <button class="btn btn-digit">/</button>
+                                <button class="btn btn-digit">=</button>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                    <div class="calc-form">
+                        <p>Months<span>*</span></p>
+                        <div id="myDropdown" class="dropdown">
+                            <button id="btn-choose" class="btn btn-default dropdown-toggle" type="button">
+                                
+                            </button>
+                            <ul class="dropdown-menu">
+                            </ul>
+                        </div>
+                    
+                        <button class="btn btn-lg btn-calculate" type="button">Calculate</button>
+
+                        <p>Total</p>
+
+                        <input name="total" id="total" class="total" type="text">
+
+                        <button class="btn btn-lg btn-getquot" type="button">Get Quot</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-screen">
+            <footer>
+            Liferay Inc.
+            </footer>
+        </div>
+            
+            
+
+            
+        
+        
+
+    </body>
+</html>
